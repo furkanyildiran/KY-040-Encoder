@@ -1,7 +1,7 @@
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <avr/interrupt.h>
-
+//2.2
 volatile int MSB = 0;
 volatile int LSB = 0;
 volatile int encoded = 0;
